@@ -1,0 +1,12 @@
+# Файлы, сгенерированные JVM
+*.class
+
+# Каталог компиляции/сборки
+out/
+build/
+
+# Служебные файлы IDE (IntelliJ IDEA)
+.idea/
+*.iml
+*.iws
+*.ipr
