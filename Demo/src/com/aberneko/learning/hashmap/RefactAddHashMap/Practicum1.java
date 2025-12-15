@@ -1,4 +1,4 @@
-package WorkList1.RefactAddHashMap;
+package com.aberneko.learning.hashmap.RefactAddHashMap;
 
 
 import java.util.Scanner;
