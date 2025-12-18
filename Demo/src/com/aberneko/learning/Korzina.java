@@ -3,6 +3,11 @@ package com.aberneko.learning;
 public class Korzina {
     static void main() {
 
+        Object anyObject;
+
+        anyObject = new Animal();
+        anyObject.getCla;
+
     }
 }
 
