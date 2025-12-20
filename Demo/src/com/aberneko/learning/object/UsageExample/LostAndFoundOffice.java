@@ -1,4 +1,4 @@
-package com.aberneko.learning.Object;
+package com.aberneko.learning.object.UsageExample;
 
 import java.util.ArrayList;
 

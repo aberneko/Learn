@@ -1,4 +1,4 @@
-package com.aberneko.learning.Object;
+package com.aberneko.learning.object.Equals;
 
 import java.util.Objects;
 

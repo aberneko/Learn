@@ -1,4 +1,4 @@
-package com.aberneko.learning.overide;
+package com.aberneko.learning.override;
 
 class ISS extends Zarya {
     // доступ к изменению параметров запрещён

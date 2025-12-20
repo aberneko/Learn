@@ -1,4 +1,4 @@
-package com.aberneko.learning.Object.tack1;
+package com.aberneko.learning.object.Equals.RuleContract;
 
 import java.util.Objects;
 

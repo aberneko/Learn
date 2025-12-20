@@ -1,4 +1,4 @@
-package com.aberneko.learning.Object.tack1;
+package com.aberneko.learning.object.Equals.RuleContract;
 
 public class Music {
     public static void main(String[] args) {

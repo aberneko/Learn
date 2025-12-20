@@ -1,4 +1,4 @@
-package com.aberneko.learning.Object;
+package com.aberneko.learning.object.UsageExample;
 
 class Ball { }      // Класс "мяч"
 class Accordion { } // Класс "аккордеон"

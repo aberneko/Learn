@@ -1,4 +1,4 @@
-package com.aberneko.learning.overide;
+package com.aberneko.learning.override;
 
 class Mir { // доступ к любым изменениям класса запрещён, при проверке будет подставлен оригинальный файл
     protected double oxygenLevel;
