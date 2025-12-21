@@ -22,5 +22,15 @@ class Person {
     @Override
     public int hashCode() {
         return Objects.hash(firstName, lastName);
+
+        // реализация
+        /*
+        int result = 1;
+        for (Object element : elements) {
+            result = 31 * result + (element == null ? 0 : element.hashCode());
+        }
+        return result;
+         */
+
     }
 }
