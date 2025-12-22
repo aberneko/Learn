@@ -1,4 +1,4 @@
-package com.aberneko.learning.hashmap;
+package com.aberneko.learning.hashmap.UsageExample;
 
 import java.util.ArrayList;
 import java.util.HashMap;

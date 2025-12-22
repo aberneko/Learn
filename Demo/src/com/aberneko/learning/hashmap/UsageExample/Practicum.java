@@ -1,4 +1,4 @@
-package com.aberneko.learning.hashmap;
+package com.aberneko.learning.hashmap.UsageExample;
 
 // В хеш-таблице customersOrders класса OrdersManager собрана информация о клиентах зоомагазина (это ключи) и их
 // заказах. Дополните код методов:
