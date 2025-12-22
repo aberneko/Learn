@@ -1,4 +1,4 @@
-package com.aberneko.learning.encapsulation;
+package com.aberneko.learning.encapsulation.TackEncapsulationOne;
 
 public class tack {
     static void main(String[] args) {

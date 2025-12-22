@@ -1,4 +1,4 @@
-package com.aberneko.learning.encapsulation;
+package com.aberneko.learning.encapsulation.TackEncapsulationOne;
 
 class BankAccount {
     private long moneyAmount;
@@ -10,7 +10,6 @@ class BankAccount {
     public long getMoneyAmount() {
         return moneyAmount;
     }
-
     public void AllPrime() {
         long allprime = moneyAmount;
         moneyAmount = 0;
