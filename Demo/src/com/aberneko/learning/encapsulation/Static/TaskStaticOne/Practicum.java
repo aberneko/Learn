@@ -25,7 +25,8 @@ public class Practicum {
         forest.printHares();
 
         System.out.println("В лесу зима!");
-        forest.setSeason("зима");
+        Forest forest1 = new Forest(hares);
+        forest1.setSeason("зима");
         // поменяйте время года на зиму
 
         System.out.println("Список зайцев:");
