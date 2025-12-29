@@ -1,0 +1,10 @@
+package com.aberneko.learning.Abstract.example2;
+
+public class SmsNotifier extends Notifier{
+
+    @Override
+    protected void send(String massage) {
+        System.out.println("Уведомление по SMS: " + massage);
+    }
+
+}
