@@ -4,7 +4,7 @@ public class ConsoleGreeter implements Greeter{
 
     @Override
     public void greet(String name) {
-        System.out.println(String.format("Привет %S", name));
+        System.out.printf("Привет %S%n", name);
     }
 
 }
