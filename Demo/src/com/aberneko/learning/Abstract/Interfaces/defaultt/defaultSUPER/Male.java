@@ -1,4 +1,4 @@
-package com.aberneko.learning.Abstract.Interfaces.defaultSUPER;
+package com.aberneko.learning.Abstract.Interfaces.defaultt.defaultSUPER;
 
 public interface Male {
 

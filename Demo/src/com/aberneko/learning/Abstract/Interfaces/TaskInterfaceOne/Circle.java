@@ -1,6 +1,6 @@
 package com.aberneko.learning.Abstract.Interfaces.TaskInterfaceOne;
 
-public class Circle {
+public class Circle implements Figure{
     // Радиус круга
     private final double r;
 
@@ -8,6 +8,7 @@ public class Circle {
         this.r = r;
     }
 
+    @Override
     public double getArea() {
         return Math.PI * r * r;
     }

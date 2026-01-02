@@ -1,4 +1,4 @@
-package com.aberneko.learning.Abstract.Interfaces.defaultSUPER;
+package com.aberneko.learning.Abstract.Interfaces.defaultt.defaultSUPER;
 
 public class Cat implements Male, Male2 { // реализует 2 интерфейса
 

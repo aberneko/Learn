@@ -1,13 +1,19 @@
 package com.aberneko.learning.Abstract.Interfaces.TaskInterfaceOne;
 
-public abstract class Parallelogram {
+public abstract class Parallelogram implements Figure {
 
     private final double a;
-    private final double b;
+    private final double h;
 
-    public Parallelogram(double a, double b) {
+    public Parallelogram(double a, double h) {
         this.a = a;
-        this.b = b;
+        this.h = h;
+    }
+
+    @Override
+    public double getArea() {
+        return a * h;
     }
 
 }
+
