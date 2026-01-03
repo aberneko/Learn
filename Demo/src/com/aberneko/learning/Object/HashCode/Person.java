@@ -1,0 +1,36 @@
+package com.aberneko.learning.Object.HashCode;
+import java.util.Objects;
+
+class Person {
+    public String firstName;
+    public String lastName;
+
+    public Person(String firstName, String lastName) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Objects.equals(firstName, person.firstName) &&
+                Objects.equals(lastName, person.lastName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName);
+
+        // реализация
+        /*
+        int result = 1;
+        for (Object element : elements) {
+            result = 31 * result + (element == null ? 0 : element.hashCode());
+        }
+        return result;
+         */
+
+    }
+}
