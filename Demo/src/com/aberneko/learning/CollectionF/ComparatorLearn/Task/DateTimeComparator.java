@@ -1,4 +1,4 @@
-package Collection.ComparatorLearn.Task;
+package com.aberneko.learning.CollectionF.ComparatorLearn.Task;
 import java.util.Comparator;
 
 public class DateTimeComparator implements Comparator<DateTime> {

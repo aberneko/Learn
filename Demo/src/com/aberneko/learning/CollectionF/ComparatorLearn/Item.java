@@ -1,4 +1,4 @@
-package Collection.ComparatorLearn;
+package com.aberneko.learning.CollectionF.ComparatorLearn;
 
 import java.util.*;
 

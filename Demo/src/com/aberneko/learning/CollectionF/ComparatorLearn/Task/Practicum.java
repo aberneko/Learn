@@ -1,4 +1,4 @@
-package Collection.ComparatorLearn.Task;
+package com.aberneko.learning.CollectionF.ComparatorLearn.Task;
 
 public class Practicum {
 

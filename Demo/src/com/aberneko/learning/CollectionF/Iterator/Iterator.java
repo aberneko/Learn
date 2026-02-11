@@ -1,4 +1,4 @@
-package Collection.Iterator;
+package com.aberneko.learning.CollectionF.Iterator;
 
 import java.util.ArrayList;
 
