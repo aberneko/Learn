@@ -79,7 +79,20 @@ public class Git {
                 --> modified (изменённый)
                               Файл который уже был под `--git commit` но в него опять внесли правки
                 
-                """);
+                """
+        );
+
+
+
+        //git status
+        System.out.println(
+                """
+                `--git status` показывает только следующие состояние файлов 
+                    --> staged (Changes to be committed)
+                    --> modified (Changes not staged for commit)
+                    --> untracked (Untracked files)
+                """
+        );
 
     }
 }
