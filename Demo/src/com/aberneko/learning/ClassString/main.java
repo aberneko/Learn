@@ -2,8 +2,6 @@ package com.aberneko.learning.ClassString;
 
 public class main {
     static void main() {
-
-
         System.out.println(
                 """
                         String myString = "Привет!" - объект-строка создаётся через строковый литерал
@@ -21,18 +19,70 @@ public class main {
         System.out.println(
                 """
                         String Pooling (Пул строк при компиляции):
-                        - происходит на этапе компиляции 
+                        - происходит на этапе компиляции
                         - экономит место в файле
                         - только литерали (строки в кавычках)
                         
                         Пул строк — это место хранения единственного экземпляра (оригинала) каждой уникальной литеральной строки»
                         """
+        );
+        System.out.println(
+                """
+                        `.leagth()` -  сколько символов в строке
+                        `.isEmpty()` - является ли строка пустой или нет
+                            `.isBlank()` - вернёт true если строка пустая или состоит из пробелов
+                        `.trim()` - очистит проблелы в начале и в конце
+                        `.toUpperCase()` - верхний регистр
+                        `.tolowerCase()` - нижний регистр
+                        """
 
-//              int age = 23; // 23 — числовой литерал
-//              String name = "Байт"; // "Байт" — строковый литерал
-//              boolean isJavaAwesome = true; // true — булев литерал
+//              public class PasswordChecker {
+//                  public boolean checkPassword(String password) {
+//                       if (password.isEmpty()) { // проверяем, не является ли строка пустой
+//                            System.out.println("Пароль отсутствует.");
+//                            return false;
+//                      } else if (password.length() < 8) { // размер строки не должен быть меньше 8 символов
+//                         System.out.println("Пароль слишком короткий.");
+//                            return false;
+//                      }
+//                       System.out.println("Подходящий пароль.");
+//                       return true;
+//                   }
+//
+//                   public static void main(String[] args) {
+//                     PasswordChecker checker = new PasswordChecker();
+//
+//                        System.out.println(checker.checkPassword(""));           // false
+//                        System.out.println(checker.checkPassword("S34fd1265Jd")); // true
+//                        System.out.println(checker.checkPassword("          "));  // true
+//                          System.out.println(checker.checkPassword("shortpw"));    // false
+//                  }
+//              }
 
-//              Позволяет JVM использовать специальные оптимизации для строк.
+//              public class Practicum {
+//                  public static void main(String[] args) {
+//                      String blank = "   ";
+//                      String notBlank = "Тут пробелы или строка?!";
+//                      System.out.println(blank.isBlank()); // true
+//                      System.out.println(notBlank.isBlank()); // false
+//
+//                      String withBlanks = "  Привет, у меня тут лишние пробелы!";
+//
+//                      System.out.println(withBlanks.trim());
+//                  }
+//              }
+
+//              public class Practicum {
+//                  public static void main(String[] args) {
+//                      String text = "Привет, я Java!";
+//                      System.out.println(text.toUpperCase()); // выведет "ПРИВЕТ, Я JAVA!"
+//                      System.out.println(text.toLowerCase()); // выведет "привет, я java!"
+//                  }
+//              }
+
+
+
+
 
         );
 
