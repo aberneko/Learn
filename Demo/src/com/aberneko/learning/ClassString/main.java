@@ -83,8 +83,29 @@ public class main {
         );
         System.out.println(
                 """
+                Подстрока (англ. substring) — это непрерывный набор символов внутри строки. Например, «обед» — подстрока для «победа»
+                Подстроки чувствительны к регистру.
                 
+                Ориентироваться внутри строк и искать подстроки позволяет внутренняя нумерация символов.
+                Для манипуляции с подстроками предусмотрены свои методы:
+                
+                        \\indexOf(String str\\ - ищет слева направо
+                        \\lastIndexOf(String str)\\ - справа налево                                                     - можно найти индекс начала подстроки
+                        Если подстрока не найдена: -1;
+                
+                        так же принимает в себя аргумент индекса, с которого нужно начать поиск.
+                
+                        \\charAt(int index) - получение символа по индексу
                 """
+
+//                String start = "Hello, world!";
+//                System.out.println(start.indexOf("world"));                                                           БУдет выведено 7 - так как индекс первого элемента подстроки 7
+
+//                String start = "Hello, world!";
+//                System.out.println(start.indexOf("world", 7));                                                        indexOf(String start, int fromIndex)
+
+//                String start = "Hello, world!";
+//                System.out.println(start.charAt(7));                                                                  будет выведено `w`
         );
 
 
