@@ -107,6 +107,19 @@ public class main {
 //                String start = "Hello, world!";
 //                System.out.println(start.charAt(7));                                                                  будет выведено `w`
         );
+        System.out.println("""
+                Всего в String три метода для поиска подстроки:
+                    `boolean contains(String other)` - возвращает true, если подстрока будет обнаружена в любом месте строки, иначе false;
+                    `boolean startsWith(String other)` - вернёт true, если подстрока находится в начале строки, иначе false;
+                    `boolean endsWith(String other)` - вернёт true, если подстрока в конце строки, иначе false;
+                
+                    `String substring(int beginIndex, int endIndex)` - получение подстрок
+                        параметр принимает 2 индекса первый и последний
+                        последний исключается так как представляется индексы как граница
+                
+                    `String substring(int beginIndex)` - получение подстрок
+                        вернёт все символы начиная с индекса(который был передан в параметр - с первого) до самого конца
+                """);
 
 
     }
